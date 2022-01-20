@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        div > #escondido{
+            display: none;
+            color:rgb(30, 60, 230);
+            font-family: 'Amatic SC', sans-serif;
+            font-size: 3em;
+        }
+        div:hover > #escondido{
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o cursor na frase abaixo</p>
+    <div>
+        <p>Passe o cursor aqui!</p>
+        <p id="escondido">TEXTO ESCONDIDO (ACHOOUUU)!!!</p>
+    </div>
+    <p>Fim do comando</p>
+</body>
+</html>

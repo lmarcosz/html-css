@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        #arredondada{
+            background-color: chartreuse;
+            margin: 10px auto;
+            padding:50px;
+            width: 800px;
+            height: 200px;
+            border: 2px solid black;
+
+            border-radius: 10px 20px 40px 80px;
+        }
+        #circulo{
+            background-color: orange;
+            height: 400px;
+            width: 400px;
+            margin: 20px auto;
+            border: 5px solid blue;
+            
+            border-radius: 50%;
+        }
+        #personalizada{
+            background-color: rgb(51, 51, 51);
+            color: white;
+            width: 700px;
+            margin: 30px auto;
+            padding: 10px;
+
+            border: 10px solid transparent;
+            border-image: url(border.png) 10 repeat;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="arredondada">Teste de borda arredondada</h1>
+    <div id="circulo"></div>
+    <h1 id="personalizada">Lorem, ipsum dolor sit amet consectetur</p>
+</body>
+</html>

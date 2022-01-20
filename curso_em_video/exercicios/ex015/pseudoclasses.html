@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        div{
+            display: inline-block;
+            background-color: grey;
+            height: 500px;
+            width: 500px;
+            text-align: center;
+            border: 10px solid black;
+        }
+        div#d1:hover{
+            background-color: chartreuse;
+            color:blue;
+        }
+        #d2:hover{
+            background-color: rgb(255, 0, 0);
+            color: white;
+        }
+        #d3:hover{
+            background-color: rgb(0, 0, 0);
+            color:dodgerblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+</body>
+</html>

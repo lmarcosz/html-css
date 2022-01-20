@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+            #  = id
+            .  = class
+            :  = pseudoclass
+            :: = pseudo-element
+            >  = children
+        */
+        body{
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            text-decoration: none;
+            color:red;
+        }
+        a:hover{
+            color:blue;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        .especial{
+            background-color: rgba(222, 184, 135, 0.424);
+        }
+        .especial::before{
+            content: '❤️';
+        }
+        .especial::after{
+            content: '✨';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul type="square">
+        <li><a href="https://github.com/lmarcosz" target="_blank" rel="external" class="especial">Meu Github</a></li>
+        <li><a href="https://www.instagram.com/lmarcosz/" target="_blank" rel="external" class="especial">Meu Instagram</a></li>
+        <li><a href="https://www.youtube.com/MlucasxD" target="_blank" rel="external">Meu Canal do YouTube</a></li>
+    </ul>
+</body>
+</html>

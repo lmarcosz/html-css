@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Indie+Flower&display=swap');
+
+@font-face{
+    font-family:'Oregon';
+    src: url('fonts/Oregon\ LDO\ Black.ttf') format('truetype');
+}
+@font-face{
+    font-family:'Oregon Light';
+    src: url('fonts/Oregon\ LDO\ Extended.ttf.ttf') format('truetype');
+}
+
+
+/*CONFIG GLOBAIS*/
+:root{
+    --color00: white;
+    --color01: #f8ebca;
+    --color02: #9ec7af;
+    --color03: #2081C3;
+    --color04: #F37748;
+    --color05: #823329;
+    --fontdef: Arial, Helvetica, sans-serif;
+    --font01: 'Oregon', sans-serif;
+    --font02: 'Oregon Light', sans-serif;
+    --font03: 'Fredericka the Great', cursive;;
+    --font04: 'Indie Flower', cursive;;
+}
+
+*{
+    font-family: var(--fontdef);
+}
+/*CONFIG CORPO*/
+body{
+    background-image: linear-gradient(40deg, var(--color01), var(--color02));
+    background-attachment: fixed;
+    height: 100px;
+    margin: 0;
+}
+
+/*CONFIG CABEÇALHO*/
+header{
+    background-image: linear-gradient(40deg, var(--color05), var(--color04));
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 10px 20px;
+    box-shadow: 5px 0px 4px 2px rgba(0, 0, 0, 0.37);
+}
+header h1{
+    display: inline-block;
+    margin: 0;
+    padding: 20px;
+    font: bold 3em var(--font02);
+    color: var(--color01);
+    text-shadow: 4px 4px 1px #103b58;
+}
+
+header nav{
+    display: inline-block;
+    margin: 0;
+    text-align: right;
+    padding: 20px;
+}
+header nav a{
+    font: bold 1em var(--font02);
+    color: var(--color02);
+    text-decoration: none;
+    margin: 0px 10px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.678);
+    transition-duration: 0.1s;
+}
+header nav a:hover{
+    text-shadow: 10px 10px 1px rgba(0, 0, 0, 0);
+    color: var(--color01);
+}
+
+/*CONFIG CONTEÚDO*/
+main{
+    background-image: rgba(0, 0, 0, 0.315);
+    margin: 0px auto;
+    text-align: center;
+    max-width: 1000px;
+    padding: 100px 30px;
+}
+main section p{
+    font: normal 1.7em var(--font04);
+    color: var(--color05);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.308);
+    margin: 10px;
+    margin-bottom: 50px;
+}
+main h1{
+    font: bold 3em var(--font02);
+    color: var(--color03);
+    text-shadow: 3px 3px 1px #ffffff;
+}
+main section .botao{
+    background-color: var(--color05);
+    color: var(--color02);
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 20px;
+    font: bold 1.2em var(--font02);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.678);
+    border-radius: 30px;
+    transition-duration: 0.2s;
+}
+main section .botao:hover{
+    background-color: var(--color04);
+    color:var(--color01);
+}
+
+/*CONFIG RODAPÉ*/  
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.801);
+    text-align: center;
+    color: var(--color01);
+    height: 60px;
+}
+footer p{
+    font: normal 1em var(--fontdef);
+    background-image: linear-gradient(40deg, rgb(0, 0, 0),rgb(51, 51, 51) );
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    box-shadow: -5px 0px 4px 2px rgba(0, 0, 0, 0.37);
+}
+footer p a{
+    font-weight: bold;
+    color:var(--color01);
+    text-decoration: none;
+    transition-duration: 0.3s;
+}
+
+footer p a:hover{
+    color:var(--color02);
+}

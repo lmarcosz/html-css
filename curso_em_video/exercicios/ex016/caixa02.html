@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            margin: 0px;
+            background-color: rgb(105, 102, 102);
+        }
+
+        header{
+            background-color: rgb(43, 43, 110);
+            text-align: center;
+            margin: 0%;
+        }
+        header > h1{
+            color:oldlace;
+            text-align: center;
+            font-family: 'Architects Daughter', cursive;
+            padding-top: 20px;
+            margin: 0px;
+        }
+
+        nav > a{
+            color:rgb(166, 166, 255);
+            font-family: monospace;
+            text-decoration: none;
+            text-align: center;
+            margin-right: 50px;
+            margin-left: 50px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color:yellow;
+        }
+        
+        #Feed{
+            background-color: rgb(196, 210, 255);
+            display: block;
+            margin: 20px;
+            border: 4px solid black;
+            text-align: center;
+        }
+        #Feed > article{
+            border: 2px solid black;
+            padding: 40px;
+            margin: 20px;
+        }
+
+        article > h2{
+            text-align: center;
+        }
+        article > p{
+            text-align: justify;
+            text-indent: 4%;
+        }
+
+        footer{
+            background-color: rgb(32, 32, 32);
+            color: rgb(79, 216, 216);
+            text-align: center;
+            width: 100%;
+        }
+        footer > p{
+            padding: 50px;
+            margin-bottom: 0%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Exemplo de estrutura de um site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Feed">
+            <article>
+                <h2>Real Madrid anuncia a contratação de Kaká</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fuga earum consequuntur temporibus numquam esse sequi unde! Vero, velit debitis ratione iure quas perferendis sequi, distinctio sint reiciendis in fugiat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quia quae repellendus ratione, voluptatum fugiat odio minima autem enim culpa fuga commodi placeat blanditiis odit optio praesentium dolorum ipsam. Ullam!</p>
+                <img src="imagem.jpg" alt="Kaká">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, incidunt distinctio, suscipit excepturi exercitationem nam aperiam cumque neque eveniet commodi quisquam necessitatibus culpa labore ducimus porro non tempora fugit maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis officia sunt quos corporis molestiae, consectetur repellendus dolores corrupti provident et! Non harum ad aspernatur voluptatem amet, a iure. Obcaecati, voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, quo aut reiciendis, molestias quia vero fugit necessitatibus voluptates, rerum eum delectus saepe sed. Illo quidem quae, veniam corrupti cum animi.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis maxime aliquid sunt praesentium molestiae, repellendus accusamus nobis dignissimos iusto delectus nam velit perferendis doloremque doloribus illo blanditiis unde, vel ab. Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi obcaecati consequatur maxime impedit facere consectetur ad. Vitae similique enim nisi exercitationem inventore, ex beatae consectetur, nobis sit assumenda sed veniam?</p>
+            </article>
+            <article>
+                <h2>Título do Post2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt fuga earum consequuntur temporibus numquam esse sequi unde! Vero, velit debitis ratione iure quas perferendis sequi, distinctio sint reiciendis in fugiat? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis quia quae repellendus ratione, voluptatum fugiat odio minima autem enim culpa fuga commodi placeat blanditiis odit optio praesentium dolorum ipsam. Ullam!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Marcos Lucas da Silva<br>Todos os direitos reservados<br>2022</p>
+    </footer>
+</body>
+</html>

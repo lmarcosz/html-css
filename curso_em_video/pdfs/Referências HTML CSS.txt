@@ -1,0 +1,19 @@
+-Ebook do próprio curso
+
+-Referência MDN (Mozilla Developer Network)
+-W3C Standards
+-WHATWG Living Standard
+-W3Schools
+
+-Série da O'Reilly (HTML5, CSS, Flexbox in CSS, Grid Layout in CSS)
+-HTML5 e CSS3 (Elizabeth Castro e Bruce Hyslop)
+-HTML & CSS (Jon Duckett)
+-HTML e CSS (Elizabeth Robson)
+-Crie seu próprio site (nATE cOOPER)
+
+-Livros do Mauricio Samy Silva
+
+-Curso de Design Gráfico (Editora GG)
+-O essencial do design gráfico (editora senac)
+-A psicologia das cores (Editora GG)
+-Pensar com tipos (Editora GG)
